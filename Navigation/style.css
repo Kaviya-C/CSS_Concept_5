@@ -1,0 +1,68 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lora:ital@1&family=Prompt&display=swap');
+
+
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+
+
+
+body{
+ 
+ background-color: gray;
+ /* font-family: 'Dancing Script', cursive; */
+font-family: 'Lora', serif;
+/* font-family: 'Prompt', sans-serif; */
+}
+
+nav{
+ margin-top: 200px;
+ text-align: center;
+}
+nav ul{
+ 
+ display: inline-block;
+ list-style: none;
+ transform: skew(-25deg);
+
+
+}
+
+nav ul li{
+ 
+background-color: white;
+float: left;
+border-right: 1px solid brown;
+ box-shadow: 2px 2px 3px rgba(201, 35, 35, 0.3);
+ text-transform: uppercase;
+ color: rgb(37, 2, 2);
+ font-weight: 300;
+ transition:all 0.2s linear;
+}
+
+nav ul li a{
+ text-decoration: none;
+ color:inherit;
+}
+
+nav ul li:hover{
+ color:white;
+ background-color: #2dde9d;
+}
+
+ul li:first-child{
+ border-radius: 5px 0 0 5px;
+}
+
+ul li:last-child{
+ border-radius: 0px 5px 5px 0;
+}
+
+a{
+ display: block;
+ padding: 5px 10px;
+ transform: skew(25deg);
+}

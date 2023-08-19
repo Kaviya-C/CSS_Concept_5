@@ -1,0 +1,65 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Arvo&family=Dancing+Script&family=Kanit&family=Lora:ital@1&family=Open+Sans&family=Prompt&family=Roboto+Mono&display=swap');
+
+
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+ font-family: 'Lora', serif;
+}
+
+
+body{
+ width:100vw;
+ height: 100vh;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ gap:15px;
+}
+h2{
+ font-weight: 600;
+ font-size: 25px;
+ color: rgb(17, 1, 1);
+}
+.search-bar{
+ max-width: 600px;
+ display: inline-flex;
+
+}
+
+.search-text{
+ width:400px;
+ padding: 10px;
+ outline: none;
+ border-color: rgb(2, 1, 6);
+ border-radius:5px 0 0 5px;
+ background-color: rgb(241, 247, 212);
+ transition: 0.5s;
+}
+
+.search-text::placeholder{
+ color: hsl(30, 25%, 5%);
+}
+
+.search-text:focus{
+ background-color: white;
+}
+
+.btn-search{
+ width: 40px;
+ background-color:#f9f4f3;
+ outline:none;
+ border: 1px solid gray;
+ color:rgb(13, 13, 13);
+ font-size:20px;
+ border-radius: 0 5px 5px 0;
+ cursor: pointer;
+}
+
+.btn-search:hover{
+ background-color:blanchedalmond;
+ width:45px;
+}
